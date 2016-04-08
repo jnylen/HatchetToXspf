@@ -37,7 +37,7 @@ puts "Building XSPF.."
           xml.title track["name"]
           xml.creator artists[track["artist"]]
           #xml.album = albums[track["album"]] # no way to match these
-          xml.location track["url"]
+          #xml.location track["url"]
         }
       end
     }
